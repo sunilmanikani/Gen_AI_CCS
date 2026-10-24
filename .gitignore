@@ -1,0 +1,35 @@
+# Seismic data volumes (large, available via CO2DataShare / Equinor)
+*.npy
+
+# Trained model checkpoints
+*.pth
+*.pt
+checkpoints/
+checkpoints_*/
+models_*/
+
+# Results and generated images
+results/
+interpolation_sunil*/
+zssr_results/
+images_training_*/
+embeddings_output/
+uncertainty_output/
+interp_paper_figs/
+rca_figs/
+
+# Transcripts and survey data (IRB protected)
+transcripts/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Logs
+nohup.out
+*.log
+
+# Misc
+.DS_Store
+*.swp
